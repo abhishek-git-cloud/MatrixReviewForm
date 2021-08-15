@@ -1,0 +1,104 @@
+.feedback{
+    width: 100%;
+    max-width: 780px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 15px;
+   
+}
+
+h4 {
+  margin-top: 0px;
+}
+.labelname {
+  margin-top: 20px;
+}
+button#submitbtn {
+  margin-left: 270px;
+}
+.star-rating {
+   margin: 12px 0 0px;
+  font-size: 0;
+  white-space: nowrap;
+  display: flex;
+  width: 575px;
+  height: 35px;
+  overflow: hidden;
+  position: relative;
+   background-size: contain;
+}
+.star-rating i {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+/* background-color: green; */
+  background-size: contain;
+}
+
+.orange{
+  background-color: #fb4f14!important;
+  opacity: 1!important;
+}
+
+.yellow{
+  background-color: #ffa812!important;
+  opacity: 1!important;
+}
+.red{
+  background-color: #b22222!important;
+  opacity: 1!important;
+}
+.lightgreen{
+  background-color: #adff2f!important;
+  opacity: 1!important;
+}
+.green{
+  background-color: #008000!important;
+  opacity: 1!important;
+}
+
+.star-rating label {
+  position:relative;
+    -webkit-appearance: none;
+  outline:0 !important;
+    height:33px;
+      background-color: grey;
+    margin: 0 1px 0 0;
+  width: calc(21% - 7px);
+    float: left;
+  cursor:pointer;
+}
+.whiteBG{
+background-color: red;
+
+}
+
+.pink{
+
+  background-color: pink;
+}
+.star-rating input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  opacity: 0;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+.star-rating input:hover + i,
+.star-rating input:checked + i {
+  opacity: 1;
+}
+
+.labelname span{
+  margin-right:63px;
+}
